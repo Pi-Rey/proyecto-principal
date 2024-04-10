@@ -7,14 +7,28 @@
     gap: 30px;
        text-align: center;
     &__title{
+        color: $turquesa_oscuro;
         font-size: 2rem;
         margin: 0 40px;
-        padding: 10px 0;
+        padding: 10px;
         border-radius: 20px;
-        background-color: rgba($color: #ffffff, $alpha: 0.5)
+        background-color: rgba($color:$blanco_azul, $alpha: 0.5)
     }
     &__subtitle{
+        color: $turquesa_oscuro;
         font-size: 1rem;
         padding: 0 20px;
+        border-radius: 20px;
+        background-color: rgba($color:$blanco_azul, $alpha: 0.5)
+    }
+    &__boton{
+        font-size: 2.4rem;
+        text-decoration: none;
+        color: $casi_blanco;
+        background-color: $turquesa_medio;
+        border-radius: 30px;
+        border: 2px solid $casi_blanco;
+        width: fit-content;
+        padding: 20px;
     }
 }
