@@ -1,0 +1,27 @@
+/*
+@import 'core/reset';
+@import 'components/code';
+@import 'components/links';
+@import 'layout/page';
+@import 'layout/header';
+
+@import 'pages/index';
+*/
+@import 'core/variables';
+@import "core/reset";
+@import "layout/landing";
+@import "layout/footer";
+
+:root{
+    font-family: $main-font;
+    font-size: 62.5%;
+    margin: 0 20px;
+}
+
+
+.body {
+  background-image: url(/images/background.jpg);
+  background-position: top;
+  background-size: strech;
+
+}
