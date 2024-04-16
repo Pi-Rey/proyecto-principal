@@ -1,3 +1,43 @@
-<section>
-
-</section>
+<fieldset class="fieldset">
+  <form class="fieldset__form" action="">
+    <h3 class="fieldset__form--question">Pregunta 1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolorem neque, odit. </h3>
+    <!-- Todas tienen el mismo name y diferentes id-->
+    <div>
+      <label for="answer1">
+        <input
+          class="resp"
+          id="answer1"
+          type="radio"
+          value="1"
+          name="answers"
+        />
+        Respuesta 1
+      </label>
+    </div>
+    <div>   
+      <label for="answer2">
+        <input id="answer2" type="radio" value="2" name="answers" />
+        Respuesta 2
+      </label>
+    </div>
+    <div>
+      <label for="answer3">
+        <input id="answer3" type="radio" value="3" name="answers" />
+        Respuesta 3
+      </label>
+    </div>
+    <div>
+      <label for="answer4">
+        <input id="answer4" type="radio" value="4" name="answers" />
+        Respuesta 4
+      </label>
+    </div>
+    <div>
+      <label for="answer5">
+        <input id="answer5" type="radio" value="5" name="answers" />
+        Respuesta 5
+      </label>
+    </div>
+    <input class="fieldset__form--submit" type="submit" name="btn" id="btn" value="Siguiente" />
+  </form>
+</fieldset>

@@ -6,7 +6,7 @@
   justify-content: space-between;
   padding: 5px 20px;
   background-color: $casi_blanco;
-  position: fixed;
+  position: relative; //quizás haya que cambiar esto a sticky o absolute pero entonces tendré que ajusta la posición, creo
   bottom: 100;
   left: 50%;
   gap: 10px;
@@ -20,12 +20,13 @@
   &__link {
     text-decoration: none;
     color: $casi_blanco;
-    //border: 1px solid $turquesa_oscuro; // ev quitar
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 5px;
     background-color: $turquesa_medio;
-    :hover {
-      background-color: none;
+    border: 2px solid $casi_blanco;
+    &:hover {
+      background-color: $casi_blanco;
+      border: 2px solid $turquesa_oscuro;
       color: $turquesa_oscuro;
     }
   }
