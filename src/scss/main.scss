@@ -9,9 +9,9 @@
 */
 @import 'core/variables';
 @import "core/reset";
-@import "layout/landing";
+@import 'layout/header';
 @import "layout/footer";
-
+@import "layout/landing";
 :root{
     font-family: $main-font;
     font-size: 62.5%;
