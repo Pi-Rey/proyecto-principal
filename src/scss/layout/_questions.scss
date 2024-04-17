@@ -6,6 +6,7 @@
   //min-width: 0;
   background-color: $casi_blanco;
   font-size: 1.5rem;
+  text-align: center;
 
   &__form {
     display: flex;
@@ -16,16 +17,18 @@
     &--question {
       font-size: 1.8rem;
       margin-bottom: 10px;
+      line-height: normal;
     }
     &--submit {
       margin-top: 10px;
-      padding: 5px;
+      padding: 7px;
       width: fit-content;
       text-decoration: none;
       color: $casi_blanco;
       background-color: $turquesa_medio;
       border-radius: 10px;
       border: 2px solid $casi_blanco;
+      font-size: 1.5rem;
       &:hover {
         background-color: $casi_blanco;
         border: 2px solid $turquesa_oscuro;
